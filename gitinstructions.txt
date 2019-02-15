@@ -1,0 +1,21 @@
+Git is a command line interface that manages the repo over gitlab/github.
+
+#when we have a repo over github/gitlab:
+we can dowload it via git clone <url>
+
+#when we have made changes in local and we want same changes to gitlab/github
+ 1. git init
+    Do above in same directory to get .git file that will hold all git operations
+ 2. git add <files/folder/*>
+    Do above to add the changes in file or track untracked files
+ 3. git commit -m "first commit"
+    This will make changes in local git 
+ 4. git remote add origin git@github.com:kartikpaliwal/gittestroll.git
+    This will link local to remote(here gittestroll is repo name) 
+ 5. git branch -a (for seeing all branches)
+    git status (to see all changes)   
+ 6. git checkout -b <branchname>
+    to create a new branch
+ 7. sudo git push -u origin <branchname>
+    this will upload all changes on gitlab/github
+
