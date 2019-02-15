@@ -1,7 +1,7 @@
 Git is a command line interface that manages the repo over gitlab/github.
 
 #when we have a repo over github/gitlab:
-we can dowload it via git clone <url>
+we can download it via git clone <url>
 
 #when we have made changes in local and we want same changes to gitlab/github
  1. git init
