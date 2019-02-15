@@ -1,2 +1,2 @@
 # git-instructions
-this repo contain common cli args for git..
+This repo contain common cli args for git  
